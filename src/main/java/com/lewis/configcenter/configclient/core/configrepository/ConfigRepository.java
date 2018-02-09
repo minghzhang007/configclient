@@ -9,6 +9,8 @@ public interface ConfigRepository {
 
     Properties getConfig();
 
+    void setUpstreamConfigRepository(ConfigRepository upstreamConfigRepository);
+
     void addChangeListener(RepositoryChangeListener listener);
 
     void removeChangeListener(RepositoryChangeListener listener);

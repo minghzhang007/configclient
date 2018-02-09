@@ -75,4 +75,9 @@ public class RemoteConfigRepository extends AbstractConfigRepository {
         properties.putAll(configDTO.getConfigurations());
         return properties;
     }
+
+    @Override
+    public void setUpstreamConfigRepository(ConfigRepository upstreamConfigRepository) {
+
+    }
 }

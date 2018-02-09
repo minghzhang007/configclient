@@ -15,7 +15,7 @@ public class ConfigUtil {
 
     public String getDefaultBaseFileDir() {
         boolean osWindows = isOsWindows();
-        String baseFileDir = osWindows ? "C:\\opt\\data\\%s" : "/opt/data/$s";
+        String baseFileDir = osWindows ? "C:\\opt\\data\\%s" : "/opt/data/%ss";
         return baseFileDir;
     }
 
